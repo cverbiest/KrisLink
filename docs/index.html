@@ -10,14 +10,61 @@
   width: 50%;
   padding: 10px;
 }
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
     </style>
 </head>
 <body>
-    <div  class="center">
+    <div class="row">
+        <div class="column">
+            <h1>Talon alphabet</h1>
+            <p>zeg <strong>Click</strong> + letter voor links</p>
+            A	Air	 <br/>
+            B	Bat	 <br/>
+            C	Cap	 <br/>
+            D	Drum <br/>
+            E	Each	 <br/>
+            F	Fine <br/>
+            G	Gust	 <br/>
+            H	Harp	 <br/>
+            I	Sit	 <br/>
+            J	Jury <br/>
+            K	Krunch	 <br/>
+            L	Look <br/>
+            M	Made	 <br/>
+            N	Near	 <br/>
+            O	Odd	 <br/>
+            P	Pit	 <br/>
+            Q	Quench	 <br/>
+            R	Red <br/>
+            S	Sun	 <br/>
+            T	Trap	 <br/>
+            U	Urge	 <br/>
+            V	Vest	 <br/>
+            W	Whale	 <br/>
+            X	Plex <br/>
+            Y	Yank	 <br/>
+            Z	Zip	 <br/>
+            Ctrl	Control	 <br/>
+            Shift	Shift	 <br/>
+            Esc	Escape	 <br/>
+            spacebar	Space             <br/>
+        </div>
+
+    <div  class="column">
 
         <h1>Kris start page</h1>
         <h2>Talon Voice</h2>
-        <a href="https://chaosparrot.github.io/talon_practice/">Talon practice</a>
+        <a href="https://chaosparrot.github.io/talon_practice/">Talon practice</a> zeg "<strong>click air</strong>"
         <h2>Sport</h2>
         <a href="https://www.hln.be/sport/">HLN sport</a><br>
         <a href="https://sporza.be/nl/">Sporza</a>
@@ -31,5 +78,7 @@
         <a href="https://www.messenger.com"><img src="assets/messenger.png" height="48">Facebook messenger</a><br>
 
     </div>
+</div>
+
 </body>
 </html>
